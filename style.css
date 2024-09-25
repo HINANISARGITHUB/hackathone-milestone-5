@@ -1,0 +1,152 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #d4fae4;
+    margin: 0px;
+    padding: 0;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    color: #222222;
+    background: linear-gradient(to right, #6efda5, 50%, #57fa96);;
+    height: 50px;
+    font-size: 40px;
+    padding: 10px;
+    text-shadow: 2px 2px 2px grey;
+    
+}
+
+form {
+    max-width: 670px;
+    background-color: #bdf0d0;
+    margin: auto;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 4px 7px rgba(23, 173, 23, 0.6);
+   
+}
+
+
+legend {
+    font-size: 25px;
+    text-align: left;
+    color: #222222;
+    font-weight: bold;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid  rgb(50, 200, 70);
+    padding: 20px;
+    background-color: #a4ebbf;
+
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    color: #222222;
+}
+
+select {
+    width: 250px;
+    height: 40px;
+}
+textarea{
+    width: calc(100% - 10px);
+    resize: none;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    margin-top: 7px;
+    padding: 5px;
+
+}
+
+input {
+    height: 20px;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    margin-top: 7px;
+    padding: 5px;
+
+}
+
+#phone {
+    width: 237px;
+    height: 20px;
+}
+
+
+#upload {
+    margin-top: 12px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    left: 3px;
+}
+
+#buttoncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    width: 220px;
+    padding: 10px;
+    background-color:  #6efda5;
+    color: #222222;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #222222;
+}
+
+#resumeOutput {
+    max-width: 670px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: #bdf0d0;
+    box-shadow: 0px 4px 7px rgba(23, 173, 23, 0.6);
+    margin-top: 20px;
+   
+}
+
+#resumeOutput h2 {
+    color: #222222;
+}
+
+.profilePicture {
+    border: 2px solid #222222;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 4px 7px rgba(23, 173, 23, 0.6);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+.editable {
+    cursor: pointer;
+    display: inline;
+}
+
+#link {
+    position: relative;
+    bottom: 33px;
+}

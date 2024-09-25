@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>milestone-5</title>
+    <link href="./style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div>
+        <!-- header -->
+      <h1>Unique Path and Shareable Link</h1>
+      </div>
+      <!-- body -->
+      <form id="resumeform">
+        <!-- 1st feilsdset/personal information -->
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="username"> Generated URL:</label>
+          <input type="text" id="username" name="username" size="30" maxlength="30"/><br/>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" size="30" maxlength="30" /><br />
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required size="30" maxlength="30"/><br />
+    
+          <label for="address">Addresss:</label>
+          <input type="text" id="address" name="address" required size="30" maxlength="100"/><br />
+    
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required /><br />
+    
+    <!--  profile picture -->
+          <label id="upload"  for="ProfilePicture">Upload Profile Picture:</label>
+          <img src="./image1.png" alt="profilePicture"/>
+        
+          <input id="profilePicture" type="file" name="profilePicture" accept="image/*" required />
+          <br /><br />
+        </fieldset>
+    
+        <!-- second-feildset/education -->
+        <fieldset>
+          <legend>Education</legend>
+          <label id="educationLabel" for="education">Education</label>
+          <select id="education"   name="education" required>
+            <option value=""></option>
+            <option value="Matriculation">Matriculation</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Bachelor">Bachelor,s</option>
+            <option value="Graduate">Graduate</option>
+            <option value="Postgraduate">Postgraduate</option>
+            <option value="Master's">Master's</option>
+          </select>
+        </fieldset>
+    
+        <!-- thired-feildset/experience -->
+        <fieldset>
+          <legend>Experience</legend>
+          <label for="experience">Experience</label>
+          <textarea id="experience" name="experience" rows="4" cols="30" required></textarea><br />
+        </fieldset>
+    
+        <!-- fourth-feildset/ -->
+        <fieldset>
+          <legend>Skills</legend>
+          <label for="skills">Skills</label>
+          <textarea id="skills" name="skills" rows="4" cols="30" required></textarea><br />
+        </fieldset>
+    
+        <!-- button -->
+         <div id="buttoncontainer">
+         <button id="button"  type="submit">Generate Resume</button>
+        </div>
+         
+      </form>
+    
+       <div id="resumeOutput">
+        <!-- Resume will be generated below -->
+       </div>
+      <script src="./script.js"></script>
+    
+      <!-- footer -->
+      <div>
+        <h1>Created by Hina Nisar</h1>
+       </div>
+</body>
+</html>
+   
